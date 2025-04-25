@@ -31,7 +31,7 @@ with st.sidebar:
             <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" width="20"> 
             <b>Training Notebook</b>
         </a><br><br>
-        <p>Model Accuracy: <b>85%</b></p>
+        <p>Model Accuracy: <b>90%</b></p>
     </div>
     """, unsafe_allow_html=True)
     

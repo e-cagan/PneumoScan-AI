@@ -61,7 +61,7 @@ if uploaded_file is not None:
             
             prediction = model.predict(img_array, verbose=0)
             confidence = float(prediction[0][0])
-            result = "PNEUMONIA" if confidence > 0.63 else "NORMAL"
+            result = "PNEUMONIA" if confidence > 0.50 else "NORMAL"
             confidence_percent = confidence if result == "PNEUMONIA" else 1 - confidence
             
             # --- RESULTS DISPLAY ---
